@@ -1,0 +1,128 @@
+/* header, nav, span, footer { */
+* {
+    /* border: 1px solid black;  */
+    justify-content: space-between;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+header {
+    background-image: url("../images/dj-stock-image.jpg");
+    width: 100%;
+    border-radius: 10px;
+}
+
+.header h1 {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+    flex-wrap: wrap;
+    font-size: 40px;
+    color: white;
+}
+
+nav {
+    margin: 0 auto;
+    padding-top: 20px;
+    display: inline;
+    float: right;
+}
+
+nav ul{
+     margin: right; 
+     display: inline;
+     
+}
+
+nav li, footer li {
+    padding: 10px;
+    display: inline;
+    font-size: 15px;
+    color: lightskyblue;
+} 
+
+.general { 
+    display: inline;
+    margin: 20px;
+    padding: 20px;
+}
+
+.left {
+    background-color: aqua;
+    display: inline-block;
+    flex: 1 0 0;
+    align-self: flex-start;
+    width: 200px;
+    min-height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid lavender;
+    border-radius: 10px;
+    color: white;
+}
+
+.right {
+    background-color: aqua;
+    color: white;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    flex: 2 0 0;
+    min-width: 200px;
+    min-height: 200px;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid lavender;
+    border-radius: 10px;
+}
+
+div h2 {
+    display: inline;
+    width: 100%;
+    float: left;
+}
+
+div:hover {
+    background-color: pink;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.main {
+    display: flex;
+    flex: 2;
+    min-height: 250px;
+}
+
+.applications {
+    background-image: url("./images/istockphoto-1093508248-612x612.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-grow: 2;
+    min-height: 300px;
+    float: right;
+}
+
+img {
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+p {
+    margin-left: 5px;
+    text-align: left; 
+    line-height: 1.5;
+    display: inline;
+    float: left; 
+}
+
+footer ul {
+    display: inline;
+    float: right;
+    padding: 10px;
+}
+
