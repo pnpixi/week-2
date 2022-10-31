@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-image: url("../images/dj-stock-image.jpg");
+    background-image: url("./images/dj-stock-image.jpg");
     width: 100%;
     border-radius: 10px;
 }
@@ -44,12 +44,6 @@ nav li, footer li {
     font-size: 15px;
     color: lightskyblue;
 } 
-
-.general { 
-    display: inline;
-    margin: 20px;
-    padding: 20px;
-}
 
 .left {
     background-color: aqua;
@@ -97,14 +91,20 @@ div:hover {
     min-height: 250px;
 }
 
-.applications {
+.general { 
+    display: inline;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* .applications {
     background-image: url("./images/istockphoto-1093508248-612x612.jpg");
     background-size: cover;
     background-position: center;
     flex-grow: 2;
     min-height: 300px;
     float: right;
-}
+} */
 
 img {
     width: 100%;
