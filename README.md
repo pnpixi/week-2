@@ -7,7 +7,8 @@ This Site is my Student Portfolio, made for potential employers interested to hi
 N/A
 
 ## Usage
-To use click the link to deploy the site. The working links should take you to the area designated on the page, or my GitHub.
+https://pnpixi.github.io/week-2/
+To use, click the link to deploy the site. The working links should take you to the area designated on the page, or my GitHub.
 
 ## Credits
 N/A
